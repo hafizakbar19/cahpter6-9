@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6-9</title>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Assignment 1 SMIT for JS</h1>
+        <h2>Task 1</h2>
+        <button onclick="simpleOutput()">Simple Output</button>
+        <br>
+        <button onclick="secondOutput()">++a Output</button>
+        <br>
+        <button onclick="thirdOutput()">a++ Output</button>
+        <br>
+        <button onclick="fourthOutput()">--a Output</button>
+        <br>
+        <button onclick="fifthOutput()">a-- Output</button>
+        <br>
+
+        <h2>Task 2</h2>
+        <p>
+          <b>(1)--a;</b> will be 1 because it will subtract 1 value from its current value that is 2. <br>
+          <b>(2) --a - --b;</b> it's value will be also 1 bucause it will minus 0 from a's current value(bucause b's value has been become 0 due to writing -- before it.) <br>
+          <b>(3)--a - --b + ++b;</b> it's value has been 2 because we added ++b in the previous value and the ++b value in 1 because we added 1 in 0. <br>
+          <b>(4)--a - --b + ++b + b--;</b> it's value will be 3 because it will add the value 1 in it because it will add current value of 2 then will subtract 1 due to -- notation. <br>
+          <button onclick="q2a()">Check the value of 'a'</button>
+          <button onclick="q2b()">Check the value of 'b'</button>
+          <button onclick="q2c()">Check the value of result</button>
+        </p>
+        <h2>Task 3</h2>
+        <button onclick="greet()">Click here for greeting</button>
+    </div>
+    
+</body>
+</html>

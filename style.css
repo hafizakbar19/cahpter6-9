@@ -1,0 +1,10 @@
+body{
+    background-color: aliceblue;
+}
+.container {
+    margin: 50px;
+}
+button{
+    margin: 10px;
+    background-color: aquamarine;
+}
